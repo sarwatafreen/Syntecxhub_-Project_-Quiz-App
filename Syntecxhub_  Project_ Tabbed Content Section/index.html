@@ -1,0 +1,103 @@
+ <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Tabbed Content | Project 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="tab-card">
+    <div class="tab-header">
+      <h2>📑 Tabbed Content</h2>
+    </div>
+    <div class="tab-body">
+      <div class="tabs-container">
+        <div class="tabs-headers">
+          <button class="tab-btn active" data-tab="overview">Overview</button>
+          <button class="tab-btn" data-tab="info">Info</button>
+          <button class="tab-btn" data-tab="contact">Contact</button>
+        </div>
+        <div class="tab-content">
+          <div class="tab-pane active-pane" id="overview">
+            <h3>✨ Project Overview</h3>
+            <p>This tabbed section demonstrates dynamic content switching using pure JavaScript. Click any tab to instantly change the displayed information with a smooth fade‑slide animation. The active tab is visually highlighted, making navigation intuitive.</p>
+            <p style="margin-top: 10px;">Use cases: product details, user profiles, settings panels, or any multi‑view interface.</p>
+          </div>
+          <div class="tab-pane" id="info">
+            <h3>💡 Technical Details</h3>
+            <ul>
+              <li>HTML5 semantic structure</li>
+              <li>CSS3 transitions & animations</li>
+              <li>Vanilla JavaScript event handling</li>
+              <li>Fully responsive layout</li>
+              <li>Accessible keyboard navigation ready</li>
+            </ul>
+          </div>
+          <div class="tab-pane" id="contact">
+            <h3>📬 Get in Touch</h3>
+            <p>Email: hello@tabbed-content.demo</p>
+            <p>Twitter: @frontend_lab</p>
+            <p>GitHub: /interactive-components</p>
+            <p style="margin-top: 8px;">📞 +1 (555) 123-4567</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>  --> -->
+
+   
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabbed Content | Project 3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <div class="card-header">
+      <h2>📑 Tabbed Content</h2>
+    </div>
+    <div class="card-body">
+      <div class="tabs">
+        <button class="tab active" onclick="showTab('overview', this)">Overview</button>
+        <button class="tab" onclick="showTab('info', this)">Info</button>
+        <button class="tab" onclick="showTab('contact', this)">Contact</button>
+      </div>
+      <div class="content active" id="overview">
+        <h3>✨ Project Overview</h3>
+        <p>This tabbed section demonstrates dynamic content switching using pure JavaScript. Click any tab to instantly change the displayed information with a smooth fade‑slide animation. The active tab is visually highlighted, making navigation intuitive.</p>
+        <p>Use cases: product details, user profiles, settings panels, or any multi‑view interface.</p>
+      </div>
+      <div class="content" id="info">
+        <h3>💡 Technical Details</h3>
+        <ul>
+          <li>HTML5 semantic structure</li>
+          <li>CSS3 transitions & animations</li>
+          <li>Vanilla JavaScript event handling</li>
+          <li>Fully responsive layout</li>
+          <li>Accessible keyboard navigation ready</li>
+        </ul>
+      </div>
+      <div class="content" id="contact">
+        <h3>📬 Get in Touch</h3>
+        <p>Email: hello@tabbed-content.demo</p>
+        <p>Twitter: @frontend_lab</p>
+        <p>GitHub: /interactive-components</p>
+        <p>📞 +1 (555) 123-4567</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
