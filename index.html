@@ -1,0 +1,69 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz App</h1>
+        <div id="quiz">
+            <h2 id="question">Question Text</h2>
+            <div id="answer-buttons" class="btn-grid">
+                </div>
+        </div>
+        <div id="result-container" class="hide">
+            <h2>You finished!</h2>
+            <p id="score-text"></p>
+            <button id="restart-btn">Restart Quiz</button>
+        </div>
+        <div class="controls">
+            <button id="next-btn" class="hide">Next Question</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> -->   
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Quiz App | Project 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-card">
+    <div class="quiz-header">
+      <h2>📋 Quiz Challenge</h2>
+      <div class="progress-area">
+        <span class="question-counter" id="questionCounter">Question 1 / 10</span>
+        <span class="badge">✨ Test your skills</span>
+      </div>
+    </div>
+    <div class="quiz-body">
+      <div id="quizPanel">
+        <div class="question-text" id="questionText">Loading...</div>
+        <div class="options-list" id="optionsContainer"></div>
+        <div class="action-buttons">
+          <button id="restartQuizBtn" class="btn-outline">⟳ Restart</button>
+          <button id="nextSubmitBtn" class="btn-primary">Next →</button>
+        </div>
+        <div id="warningMessage" class="warning-message"></div>
+      </div>
+      <div id="resultPanel" class="result-panel hidden">
+        <div class="score-circle">
+          <div class="score-number" id="finalScore">0</div>
+          <div class="score-total" id="totalQuestionsSpan">/ 0</div>
+        </div>
+        <div class="result-message" id="resultMsg">🌟 Great effort!</div>
+        <button id="restartFromResultBtn" class="restart-btn">⟳ Play Again</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
